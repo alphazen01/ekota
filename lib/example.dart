@@ -8,7 +8,13 @@ class Example extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("example"),),
+      appBar: AppBar(
+        title: Text("example"),
+    ),
+    body: Container(
+      height: 150,
+      width: 150,
+    ),
     );
   }
 }
