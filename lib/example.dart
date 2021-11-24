@@ -11,9 +11,21 @@ class Example extends StatelessWidget {
       appBar: AppBar(
         title: Text("example"),
     ),
-    body: Container(
-      height: 150,
-      width: 150,
+    body: Column(
+      children: [
+        Container(
+          height: 150,
+          width: 150,
+        ),
+        Container(
+          height: 150,
+          width: 150,
+        ),
+        Container(
+          height: 150,
+          width: 150,
+        ),
+      ],
     ),
     );
   }
